@@ -1,0 +1,161 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.big-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 10%;
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-row {
+    position: relative;
+}
+
+.img-wrapper {
+    position: relative;
+}
+.title-image {
+    width: 60%;
+    transform:rotate(25deg);
+    margin: 10%;
+    position: absolute;
+    right: 60px;
+    top: 0;
+}
+
+@media (max-width: 991px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title .container-fluid {
+        text-align: center;
+    }
+}
+
+#features {
+    position: relative;
+    background-color: #fff;
+}
+
+.icon-features {
+    color: #ef8172;
+    font-size: 70px;
+    padding: 10%;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 7% 15%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    background-color: #ff4c68;
+}
+
+#footer {
+    background-color: #fff;
+}
+
+.footer-icon {
+    padding: 1%;
+}
+
+#footer .container-fluid {
+    padding: 1% 15%;
+}
+
+.colored-section {
+    color:#fff;
+}
+
+.bw-section {
+    color:#000;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
